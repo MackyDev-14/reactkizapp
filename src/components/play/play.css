@@ -1,0 +1,42 @@
+#question-con{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#question{
+	width: 70vw;
+	height: 30vh;
+	background: #189AD3;
+}
+
+#choice-con{
+	margin-top: 20px;
+	max-width: 70vw;
+	overflow-x: scroll;
+}
+
+.radio{
+	display: block;
+	margin-bottom: 20px;
+	height: 40px;
+}
+
+#ok-btn.round.btn{
+	margin: 0;
+	color: white;
+}
+
+#end-btn{
+	float: right;
+	margin-top: 10px;
+}
+
+@media only screen and (min-width: 640px ){
+	#choice-con{
+		overflow-x: unset;
+	}
+}

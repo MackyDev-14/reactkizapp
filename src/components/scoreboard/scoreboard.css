@@ -1,0 +1,21 @@
+#scoreboard{
+	 position: fixed;
+	 display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     width: 100%;
+     text-align: center;
+     background: white;
+     z-index: 1;
+     transition: 0.4s;
+     transform: translateX(100vw);
+}
+
+.scoreboard{
+	transform: translateX(0vw) !important;
+}
+
+#done{
+	margin-top: 40px;
+}
